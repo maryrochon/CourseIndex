@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3: Infographics</title>
+    <link rel="stylesheet" href="CSS/a3.css">
+</head>
+<body>
+    <a href="index.html"><div id="topscreen"> <h1>Mary's Course Index</h1></div></a>
+    <nav class="menu-area">
+        <a href="assignment1.html"><div class="item item1"><p id="title1"> Assignment 1</p></div></a>
+        <a href="assignment2.html"><div class="item item2"> <p id="title2">Assignment 2</p></div> </a>
+        <a href="assignment3.html"><div class="item item3"> <p id="title3">Assignment 3</p></div></a>
+        <a href="readingdiscussion.html"><div class="item item4"> <p id="title4">Reading Discussion</p></div></a>
+        <a href="sketches.html"><div class="item item5"> <p id="title5">Sketches</p></div></a>
+        <a href="rejected.html"><div class="item item6"> <p id="title6">Rejected Course Index</p></div></a>
+    </nav>
+
+    <div id="container">
+        <h2> Assignment 3: Me of the Screen</h2>
+    </div> 
+    
+    <div id="circle-blue"></div>
+    <div id="circle-lightblue"></div>
+    <div id="circle-skyblue"></div> 
+    <div id="circle-other1"></div>
+    <div id="circle-other2"></div>
+    <div id="circle-other3"></div>
+    <div id="circle-other4"></div>
+    <div id="circle-other5"></div>
+    <div id="circle-other6"></div>
+    <div id="circle-other7"></div>
+    <div id="circle-other8"></div>
+    <div id="circle-other9"></div>
+    <div id="circle-other10"></div>
+    <div id="circle-other11"></div>
+
+    <h2 id="outtitle">Brief Outline</h2>
+    <p id="outexpl">"This assignment asks students to think critically about embodiment and their own embodied interactions with the digital tools and environments that populate their daily lives. Students will engage in auto-ethnographic research by observing and documenting their firsthand experience of a particular digital interaction. <br> <br>
+        The first (and easiest) place to start is to start observing ourselves and to record how we feel our way through the navigation of various digital tools and/or environments. Documenting one's user Of course, none of this really matters in a design/development context unless we can take those personal, embodied interactions and effectively communicate them to a broader public.<br><br>
+        So, the second part of this assignment asks students to design an infographic that visualizes at least one kind of quantitative information and one kind of qualitative information about their experience in a single, unified compositional space, whether that be 2D, 3D or 4D. The crux of this second stage will be striking a balance not only between the two types of information but also the legibility of that information and the overarching goal of creating a dynamic and compelling piece of graphic design." -GRPH 2010-005</p>
+    <img src="images/libby.png" id="libby">
+    <h2 id="apptitle">My Approach</h2>
+    <p id="appexpl">I opted to examine my interaction with the Libby App, which is a digital library app that I use daily to listen to audiobooks. My original idea was to base my interest in the book I read based on the amount of times I paused the books. This idea morphed and instead of just focusing how many times I stopped the book, I made notes on my interest throughout the whole book. I tried to write exactly what I was thinking in the moment. Unfortunately I forgot to not include two books because I read them with the intention of going with the first idea, therefore there was no notes. During my final iteration I had to remove another book as I did not have enough notes to include for the second graph. The second graph and page idea came from our group critiques and I find that it really enhances my project.<br> <br> 
+      Creating this website took a lot of work, and a lot more math than I expected. Especially when I had to convert all my left values into percentages. Trying to figure out the hover feature that reveals another element took a couple days of experimentations, but after it started to work I was really happy with it. Coming up with different icons was actually probably one the hardest parts for me, because I was making too complicated. The icons would tie into the story, but only for those who have actually read the book. So I had to change a few and instead draw from the covers. Another hard part of the icons was that they had to be simple, so that they still looked good small, yet the viewer could still clearly make out what the icon was. </p>
+    <img src="images/assignment3.png" id="assignment3">
+    <h2 id="animtitle">My Animations</h2>
+    <p id="aminexpl">The most fun yet tedious part about this project was creating all the animations. I wanted to somehow relate the animation to both the icons and the book itself. Some of the animations are more centered around the icons, whereas other fit both. I did all the animation with CSS and activated them with Jquery, typically by scrolling.</p>
+    <h2 id="iterations">My Iterations</h2>
+    <a href="https://maryrochon.github.io/MeOfTheScreen/"><p id="Final">Final Iteration</p></a>
+    <a href="https://maryrochon.github.io/april25/"><p id="Second">Second Iteration</p></a>
+    <a href="https://maryrochon.github.io/April18th/index.html"><p id="First">First Iteration</p></a>
+  <!--videos slideshow https://www.w3schools.com/howto/howto_js_slideshow.asp-->
+    <div class="slideshow-container">
+  <div class="mySlides fade">
+    <video width="672px" height="420px" controls> <source src="videos/local woman missing 4.mov"></video>
+  </div>
+  <div class="mySlides fade">
+    <video width="672px" height="420px" controls><source src="videos/in plain sight 4.mov"></video>
+  </div>
+  <div class="mySlides fade">
+    <video width="672px" height="420px" controls><source src="videos/survive the night 4.mov"></video>
+  </div>
+  <div class="mySlides fade">
+    <video width="672px" height="420px" controls><source src="videos/The Break 4.mov"></video>
+  </div>
+  <div class="mySlides fade">
+    <video width="672px" height="420px" controls><source src="videos/what doesn't kill you 4.mov"></video>
+  </div>
+  <div class="mySlides fade">
+    <video width="672px" height="420px" controls><source src="videos/you don't live here 4.mov"></video>
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="javascript/a3.js"></script>
+</body>
+</html>

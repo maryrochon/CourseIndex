@@ -1,0 +1,511 @@
+@font-face {
+    font-family: myMigra;
+    src: url(fonts/Migra-Extrabold.otf);
+}
+@font-face {
+    font-family: myFont;
+    src: url(fonts/PPNeueMontreal-Book.otf);
+}
+
+body{
+    background: rgb(218, 197, 250);
+    height: 1750px;
+}
+
+h1{
+    font-size: 60px;
+    font-family: "myMigra";
+    text-align: center; 
+    position: relative;
+    top: -25px;
+}
+
+#topofscreen{
+    height: 100px;
+    width: 100%;
+    background: rgb(156, 31, 240);
+    position: absolute;
+    top: 0px;
+    left: 0%;
+}
+
+.menu-area{
+    position: absolute;
+    background: rgb(204, 166, 253);
+    width: 100%;
+    height: 40px;
+    top: 100px;
+    left: 0%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.item{
+    font-size: 20px;
+    font-family: "myMigra";
+    text-align: center;
+    border: 2px solid rgb(156, 31, 240);
+    background: rgb(204, 166, 253);
+    text-decoration: none;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    font-family: "myMigra";
+    position: relative;
+    top: 245px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#portfolio{
+    width: 1000px;
+    text-align: center;
+    position: absolute;
+    top: 300px;
+    left: 19.964%;
+    font-family: 'myFont';
+}
+
+#circle-blue {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    position: fixed;
+    top: 500px;
+    left: 0%;
+    background:skyblue;
+    opacity: 60%;
+}
+@keyframes blue {
+    0% { top: 500px;
+        left: 0%;}
+    25% { top: 500px;
+        left: 17.857%; }
+    50% { top: 400px;
+         left: 27.857%; }
+    75% { top: 300px;
+        left: 20.929%; }
+    99%{top: 500px;
+        left: 0%; }
+}
+.move1 {
+    animation-name: blue;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#circle-lightblue{
+    background: lightblue;
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+    position: fixed;
+    top: 250px;
+    left: 59.524%;
+    opacity: 60%;
+}
+@keyframes lightblue {
+    0% { top: 250px;
+        left: 59.524%;}
+    25% { top: 400px;
+        left: 44.643%; }
+    50% { top: 500px;
+         left: 53.571%; }
+    75% { top: 250px;
+        left: 50.952%; }
+    99%{top: 250px;
+        left: 59.524%; }
+ }
+.move2 {
+    animation-name: lightblue;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#circle-skyblue{
+    background: skyblue;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    position: fixed;
+    top: 600px;
+    left: 89.286%;
+    opacity: 60%;
+}
+@keyframes skyblue {
+    0% { top: 600px;
+        left: 89.286%;}
+    25% { top: 780px;
+        left: 59.523%;}
+    50% { top: 500px;
+         left: 70.762%;}
+    75% { top: 400px;
+        left: 80.571%; }
+    99%{top: 600px;
+        left: 89.286%; }
+ }
+ .move3 {
+    animation-name:skyblue;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#circle-other1{
+    background: rgb(155, 191, 245);
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    position: fixed;
+    top: 700px;
+    left: 23.81%;
+    opacity: 60%;
+}
+@keyframes other1 {
+    0% { top: 700px;
+        left: 23.81%;}
+    25% { top: 400px;
+        left: 35.619%; }
+    50% { top: 300px;
+         left: 44.643%; }
+    75% { top: 500px;
+        left: 35.714%; }
+    99%{top: 700px;
+        left: 23.81%; }
+ }
+ .move4 {
+    animation-name: other1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#circle-other2{
+    background: rgb(155, 191, 245);
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    position: fixed;
+    top: 800px;
+    left: 41.667%;
+    opacity: 60%;
+}
+@keyframes other2 {
+    0% {
+        top: 800px;
+        left: 41.667%;}
+    25% {
+        top: 701px;
+        left: 30.167%;}
+    50% {
+        top: 430px;
+        left: 32.619%;}
+    75% {
+        top: 650px;
+        left: 43.988%;}
+    99%{top: 800px;
+        left: 41.667%; }
+    }
+ .move5 {
+    animation-name: other2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#circle-other3{
+    background: lightblue;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    position: fixed;
+    top: 700px;
+    left: 35.714%;
+    opacity: 60%;
+}
+@keyframes other3 {
+    0% { top: 700px;
+        left: 35.714%;}
+    25% { top: 500px;
+        left: 25.333%; }
+    50% { top: 410px;
+         left: 16.571%; }
+    75% { top: 350px;
+        left: 23.81%; }
+    99%{top: 700px;
+        left: 35.714%; }
+ }
+ .move6 {
+    animation-name: other3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#circle-other4{
+    background: skyblue;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    position: fixed;
+    top: 800px;
+    left: 29.762%;
+    opacity: 60%;
+}
+@keyframes other4 {
+    0% { top: 800px;
+        left: 29.762%;}
+    25% { top: 500px;
+        left: 40.571%; }
+    50% { top: 400px;
+         left: 50.595%; }
+    75% { top: 600px;
+        left: 41.667%; }
+    99%{top: 800px;
+        left: 29.762%; }
+ }
+ .move7 {
+    animation-name: other4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#circle-other5{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    position: fixed;
+    top: 650px;
+    left: 5.952%;
+    background:lightblue;
+    opacity: 60%;
+}
+@keyframes other5 {
+    0% { top: 650px;
+        left: 5.952%;}
+    25% { top: 600px;
+        left: 20.786%; }
+    50% { top: 400px;
+         left: 9.643%; }
+    75% { top: 650px;
+        left: 2.976%; }
+    99%{top: 650px;
+        left: 5.952%; }
+}
+ .move8 {
+    animation-name: other5;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#circle-other6{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    position: fixed;
+    top: 650px;
+    left: 83.333%;
+    background:skyblue;
+    opacity: 60%;
+}
+@keyframes other6 {
+    0% { top: 650px;
+        left: 83.333%;}
+    25% { top: 300px;
+        left: 95.405%; }
+    50% { top: 550px;
+         left: 87.548%; }
+    75% { top: 750px;
+        left: 77.357%; }
+    99%{top: 650px;
+        left: 83.333%; }
+}
+ .move9 {
+    animation-name: other6;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#circle-other7{
+    background: rgb(155, 191, 245);
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    position: fixed;
+    top: 750px;
+    left: 93.75%;
+    opacity: 60%;
+}
+@keyframes other7 {
+    0% { top: 750px;
+        left: 93.75%;}
+    25% { top: 500px;
+        left: 82.524%; }
+    50% { top: 700px;
+         left: 75.595%; }
+    75% { top: 500px;
+        left: 65.476%; }
+    99%{top: 750px;
+        left: 93.75%; }
+ }
+ .move10 {
+    animation-name: other7;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#circle-other8{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    position: fixed;
+    top: 700px;
+    left: 14.881%;
+    background:rgb(155, 191, 245);
+    opacity: 60%;
+}
+@keyframes other8 {
+    0% { top: 700px;
+        left: 14.881%;}
+    25% { top: 700px;
+        left: 22.738%; }
+    70% { top: 300px;
+        left: 4.702%; }
+    95% { top: 800px;
+        left: 14.881%; }
+    99%{top: 700px;
+        left: 14.881%; }
+}
+ .move11 {
+    animation-name: other8;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#circle-other9{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    position: fixed;
+    top: 200px;
+    left: 74.405%;
+    background:rgb(155, 191, 245);
+    opacity: 60%;
+}
+@keyframes other9 {
+    0% { top: 200px;
+        left: 74.405%;}
+    25% { top: 450px;
+        left: 60.262%; }
+    50% { top: 300px;
+         left: 45.524%; }
+    75% { top: 500px;
+        left: 55.952%; }
+    99%{top: 200px;
+        left: 74.405% }
+}
+ .move12 {
+    animation-name: other9;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#circle-other10{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    position: fixed;
+    top: 200px;
+    left: 8.929%;
+    background:skyblue;
+    opacity: 60%;
+}
+@keyframes other10 {
+    0% { top: 200px;
+        left: 8.929%;}
+    25% { top: 400px;
+        left: 18.262%; }
+    50% { top: 600px;
+         left: 35.952%; }
+    75% { top:300px;
+        left: 19.286%; }
+    99%{top: 200px;
+        left: 8.929%; }
+}
+ .move13 {
+    animation-name: other10;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#circle-other11{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    position: fixed;
+    top: 200px;
+    left: 99.75%;
+    background:lightblue;
+    opacity: 60%;
+}
+@keyframes other11 {
+    0% { top: 200px;
+        left: 99.75%;}
+    25% { top: 400px;
+        left: 60.976%; }
+    50% { top: 600px;
+         left: 36.31%; }
+    75% { top:300px;
+        left: 68.929%; }
+    99%{ top: 200px;
+        left: 99.75%; }
+}
+ .move14 {
+    animation-name: other11;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#assignment1final{
+    transform: scale(20%);
+    position: absolute;
+    left: -65.476%;
+    top: -352px;
+}
+
+.placeholder{
+    height: 550px;
+    width: 450px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 18px;
+}
+
+#assignment2{
+    position: absolute;
+    left: 60.5%;
+    top: 487px;
+    width: 506.25px;
+    height: 420px;
+}
+
+#a3{
+    position: absolute;
+    transform: scale(18.75%);
+    left: -78.4%;
+    top: 300px;
+}
+
+#sk{
+    position: absolute;
+    left: 60.5%;
+    top: 1090px;
+    width: 505.981px;
+    height: 497px;
+}
